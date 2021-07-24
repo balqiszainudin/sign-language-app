@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> WeTalk </string>
+    <string name="knowmore">Sign Dictionary! Select one of these.</string>
+    <string name="Alphabets">Alphabets</string>
+    <string name="Numbers">Numbers</string>
+    <string name="fuw">Frequently used</string>
+    <string name="exit_application">Exit Application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="speak">Speak..</string>
+    <string name="message_processing">Processing text…please wait</string>
+    <string name="message_empty">Enter some text in the search box!!</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="sign_language_translator">Sign Language Translator</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="enter_text_or_tap_on_mic">Enter text or tap on mic</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="todo">TODO</string>
+</resources>
+
+
+
+
+
+
+
+

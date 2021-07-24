@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".FirstActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/knowmore"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fece2f"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fuw"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/alphabets"
+        android:layout_marginTop="122dp"
+        android:text="@string/fuw"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FECE2F" />
+
+    <Button
+        android:id="@+id/numbers"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/alphabets"
+        android:layout_marginTop="29dp"
+        android:text="@string/Numbers"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FECE2F" />
+
+    <Button
+        android:id="@+id/alphabets"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="68dp"
+        android:text="@string/Alphabets"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FECE2F" />
+
+    <ImageButton
+        android:id="@+id/backbutton_sign"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_back"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/homebutton_sign"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_home"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
